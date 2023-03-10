@@ -1,0 +1,15 @@
+.App {
+    background-color: #0E1014;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 95rem;
+}
+
+@media screen and (max-width: 600px) {
+    .App {
+        height: auto;
+    }
+}
