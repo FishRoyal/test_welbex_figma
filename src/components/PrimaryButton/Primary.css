@@ -8,9 +8,15 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    cursor: pointer;
 
     /* light text */
     color: #E4E5EA;
+}
+
+.primaryButton:hover {
+    background: #3b6de0;
+    transition-duration: 200ms;
 }
 
 @media screen and (max-width: 600px) {

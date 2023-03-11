@@ -12,10 +12,12 @@
     display: flex;
     flex-direction: column;
     text-align: right;
+    padding-bottom: 88px;
 }
 
 .contIcon {
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .phone {
@@ -64,5 +66,9 @@
 
     .phone {
         display: block;
+    }
+
+    .col {
+        padding-bottom: 135px;
     }
 }

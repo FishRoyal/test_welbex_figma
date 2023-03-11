@@ -1,0 +1,8 @@
+.hov {
+    cursor: pointer;
+}
+
+.hov:hover {
+    opacity: 0.8;
+    transition-duration: 200ms;
+}

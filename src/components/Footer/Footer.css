@@ -1,10 +1,8 @@
 .footer {
-    left: 0;
-    bottom: 0;
-    right: 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: 35px;
+    padding-bottom: 88px;
 }
 
 .sectionFooter {
@@ -32,6 +30,7 @@
 @media screen and (max-width: 600px) {
     .footer {
         position: relative;
+        padding-bottom: 145px;
     }
 
     .headerFooter {

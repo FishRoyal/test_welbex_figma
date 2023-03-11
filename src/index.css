@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'Inter';
-  src: url('/public/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('/public/fonts/inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/public/fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }  
 
 body {

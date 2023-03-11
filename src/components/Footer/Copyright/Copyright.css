@@ -1,0 +1,25 @@
+.copyright {
+    position:absolute;
+    bottom: 20px;
+    right: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    /* identical to box height */
+    text-align: right;
+
+    /* light text */
+    color: #E4E5EA;
+}
+
+@media screen and (max-width: 600px) {
+    .copyright {
+        bottom: 90px;
+        text-align: left;
+        left: 0;
+        right: auto;
+    }
+}

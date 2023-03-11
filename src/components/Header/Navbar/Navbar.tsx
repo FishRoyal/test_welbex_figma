@@ -4,11 +4,11 @@ import "./Navbar.css"
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div>Услуги</div>
-            <div>Виджеты</div>
-            <div>Интеграции</div>
-            <div>Кейсы</div>
-            <div className="hideOnMobile">Сертификаты</div>
+            <div className="hov">Услуги</div>
+            <div className="hov">Виджеты</div>
+            <div className="hov">Интеграции</div>
+            <div className="hov">Кейсы</div>
+            <div className="hideOnMobile hov">Сертификаты</div>
         </div>
     )
 }
