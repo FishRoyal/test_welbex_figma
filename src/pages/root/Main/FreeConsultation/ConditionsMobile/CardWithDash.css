@@ -1,0 +1,33 @@
+.cardWithDash {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.dash {
+    height: 2px;
+    background: linear-gradient(92deg, #FCB045, #FF3F78);
+    width: 10px;
+    margin-right: 5px;
+}
+
+.cardWText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* light text */
+    color: #E4E5EA;
+}
+
+@media screen and (min-width: 600px) {
+    .cardWithDash {
+        display: none;
+    }
+}
