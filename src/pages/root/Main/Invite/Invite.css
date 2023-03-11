@@ -1,0 +1,19 @@
+.subtitle {
+    width: 275px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* light text */
+    color: #E4E5EA;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .subtitle {
+        padding-top: 15px;
+    }
+}

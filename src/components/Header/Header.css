@@ -1,6 +1,9 @@
 .header {
-    padding-top: 61px;
+    top: 61px;
     display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -9,7 +12,5 @@
         position: fixed;
         background-color: #1E1E1E;
         top: 0;
-        left: 0;
-        right: 0;
     }
 }
