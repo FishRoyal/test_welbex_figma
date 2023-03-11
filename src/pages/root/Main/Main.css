@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    padding-top: 210px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        padding-top: 95px;
+        padding-bottom: 65px;
+    }
+}

@@ -1,0 +1,26 @@
+.primaryButton {
+    margin-top: 61px;
+    padding: 21px 35px;
+    background: #4077F3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+
+    /* light text */
+    color: #E4E5EA;
+}
+
+.primaryButton:hover {
+    background: #3b6de0;
+    transition-duration: 200ms;
+}
+
+@media screen and (max-width: 600px) {
+    .primaryButton {
+        display: none;
+    }
+}

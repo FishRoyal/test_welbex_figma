@@ -1,0 +1,83 @@
+.App {
+    background-color: #0E1014;
+    min-height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 150px;
+    max-width: 95rem;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    color: #E4E5EA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2 {
+    margin: 0;
+    background-color: #E4E5EA;
+    background-image: linear-gradient(92deg, #FCB045, #FF3F78);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        margin: 0 80px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .container {
+        margin: 0 60px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        height: auto;
+        margin: 0 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .App {
+        height: auto;
+    }
+}

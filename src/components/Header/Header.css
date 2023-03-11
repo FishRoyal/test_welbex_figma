@@ -1,0 +1,16 @@
+.header {
+    top: 61px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 0;
+        position: fixed;
+        background-color: #1E1E1E;
+        top: 0;
+    }
+}

@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    padding-bottom: 88px;
+}
+
+.sectionFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerFooter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* dark gray */
+    color: #656566;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        position: relative;
+        padding-bottom: 145px;
+    }
+
+    .headerFooter {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

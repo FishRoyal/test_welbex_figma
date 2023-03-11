@@ -1,0 +1,39 @@
+.cardCond {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 15px;
+}
+
+.titleCond {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    
+    /* light text */
+    color: #E4E5EA;
+    
+}
+
+.subCond {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #E4E5EA;
+}
+
+@media screen and (max-width: 600px) {
+    .cardCond {
+        display: none;
+    }
+}
