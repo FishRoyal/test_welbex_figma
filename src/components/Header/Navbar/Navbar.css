@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 53px;
+    width: 503px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E4E5EA;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .navbar {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 16px 20px;
+        margin: 0;
+        width: 100%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+}

@@ -4,8 +4,20 @@
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0 150px;
     max-width: 95rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        margin: 0 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {

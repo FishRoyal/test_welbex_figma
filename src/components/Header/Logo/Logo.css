@@ -1,0 +1,20 @@
+.logoFlex {
+    width: 150px;
+}
+
+.subLogo {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E4E5EA;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .logoFlex {
+        display: none;
+    }
+}

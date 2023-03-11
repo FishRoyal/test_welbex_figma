@@ -9,7 +9,7 @@ const Footer = () => {
         <>
             <About />
             <Menu />
-            <Contacts />
+            <Contacts showMore={true}/>
             <Copyright />
         </>
     )
