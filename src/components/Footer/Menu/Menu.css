@@ -1,0 +1,27 @@
+.horAlign {
+    display: flex;
+}
+
+.desktop {
+    display: flex;
+}
+
+.mobile {
+    display: none;
+}
+
+.subSectionFooter {
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .mobile {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+}

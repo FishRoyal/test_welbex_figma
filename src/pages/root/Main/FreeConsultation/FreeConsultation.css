@@ -16,6 +16,7 @@
     flex-wrap: wrap;
     width: 100%;
     padding-top: 25px;
+    text-align: right;
 }
 
 .gradiText1 {
@@ -49,6 +50,16 @@
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
 
+}
+
+@media screen and (max-width: 860px) {
+    .flCond {
+        text-align: left;
+    }
+
+    .consult {
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 600px) {

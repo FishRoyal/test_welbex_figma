@@ -1,0 +1,17 @@
+
+.itemFooter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* light text */
+    color: #E4E5EA;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .itemFooter {
+    }
+}

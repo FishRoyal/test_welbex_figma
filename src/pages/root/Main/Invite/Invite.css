@@ -12,6 +12,10 @@
     padding-top: 30px;
 }
 
+.invite {
+    max-width: 400px;
+}
+
 @media screen and (max-width: 600px) {
     .subtitle {
         padding-top: 15px;

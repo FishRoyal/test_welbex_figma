@@ -11,7 +11,7 @@
 .col {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    text-align: right;
 }
 
 .contIcon {
@@ -34,6 +34,17 @@
     }
 }
 
+@media screen and (max-width: 1160px) {
+    .col {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .alLeft {
+        text-align: left;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .phone {
         display: none;
@@ -49,5 +60,9 @@
 @media screen and (max-width: 600px) {
     .row {
         display: none;
+    }
+
+    .phone {
+        display: block;
     }
 }
